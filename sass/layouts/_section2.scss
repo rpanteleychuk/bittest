@@ -1,0 +1,43 @@
+.second-section {
+  a.rollover-one {
+    background: url(../images/2.png); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 88px; /* Ширина рисунка */
+    height: 76px; /*  Высота рисунка */
+  }
+  a.rollover-one:hover {
+    background: url(../images/1.png); /* Путь к файлу с заменяемым рисунком  */
+  }
+  a.rollover-two {
+    background: url(../images/2.png); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 88px; /* Ширина рисунка */
+    height: 76px; /*  Высота рисунка */
+  }
+  a.rollover-two:hover {
+    background: url(../images/1.png); /* Путь к файлу с заменяемым рисунком  */
+  }
+  a.rollover-three {
+    background: url(../images/3.png); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 88px; /* Ширина рисунка */
+    height: 76px; /*  Высота рисунка */
+  }
+  a.rollover-three:hover {
+    background: url(../images/1.png); /* Путь к файлу с заменяемым рисунком  */
+  }
+  a.rollover-four {
+    background: url(../images/4.png); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 88px; /* Ширина рисунка */
+    height: 76px; /*  Высота рисунка */
+  }
+  a.rollover-four:hover {
+    background: url(../images/1.png); /* Путь к файлу с заменяемым рисунком  */
+  }
+
+}
+
+
+
+

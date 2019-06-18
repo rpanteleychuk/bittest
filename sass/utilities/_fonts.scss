@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "ArialRegular";
+  src: url("/assets/fonts/ArialRegular/ArialRegular.eot");
+  src: url("/assets/fonts/ArialRegular/ArialRegular.eot?#iefix")format("embedded-opentype"),
+  url("/assets/fonts/ArialRegular/ArialRegular.woff") format("woff"),
+  url("/assets/fonts/ArialRegular/ArialRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.title-font {
+  font: 400 30px/36px 'Arial', sans-serif;
+  color: #262626;
+}
+
+.heading-font {
+  font: 400 20px/24px 'Arial', sans-serif;
+  color: #262626;
+}
+
+.form-heading-font {
+  font: 400 20px/53px 'Arial', sans-serif;
+  color: #262626;
+
+}
+
+.text-red {
+  color: #ff0036;
+}
+.text-grey {
+  color: #a4a4a4;
+}
+

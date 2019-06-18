@@ -1,0 +1,29 @@
+.custom-navbar {
+  background-color: #000;
+  padding-top: 0;
+  padding-bottom: 0;
+
+  .navbar-brand {
+    position: absolute;
+    z-index: 50;
+    top: 0;
+    padding: 0;
+  }
+  .nav-link {
+    font: 400 18px/22px 'Arial', sans-serif;
+    color: #a4a4a4;
+    text-decoration: none;
+    padding-top: 23px;
+    padding-bottom: 21px;
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
+    &:hover {
+      color: #fff;
+      border-bottom: 2px solid #ff0036;
+      border-top: 2px solid #ff0036;
+    }
+  }
+  .nav-item {
+    padding-left: 17px;
+  }
+}

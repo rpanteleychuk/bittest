@@ -1,0 +1,12 @@
+.slider-button {
+  background-color: #131313;
+  color: #fff;
+  font: 400 16px/22px "Quattrocento Sans", sans-serif;
+  padding: 10px 27px;
+  &:hover {
+    background-color: #ff0036;
+    transition: 0.8s;
+    text-decoration: none;
+    color: #fff;
+  }
+}

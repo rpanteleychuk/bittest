@@ -1,0 +1,14 @@
+.section-five {
+  background-color: #272727;
+  .custom-card {
+    .card-description {
+      background-color: #333;
+    }
+    a:hover > .card-description {
+      background-color: #3c2328;
+      color: #fff;
+    }
+
+
+  }
+}

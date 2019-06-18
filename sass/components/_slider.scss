@@ -1,0 +1,14 @@
+.first-section {
+  .carousel-caption {
+    bottom: 40%;
+    padding-right: 8%;
+    padding-left: 8%;
+  }
+  @media (max-width: 991.98px) {
+    .carousel-caption {
+      bottom: 1%;
+      padding-right: 1%;
+      padding-left: 1%;
+    }
+  }
+}
