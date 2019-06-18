@@ -363,7 +363,32 @@
     <h2 class="text-center mb-4">Find us <span class="text-red">here</span></h2>
     <p class="text-center mb-5">Lorem ipsum dolor sit amet, consectetur <span class="text-red">adipiscing elit.</span> Integer sed magna vel velit dignissim luctus eu in urna. Dapibus egestas turpis. </p>
     <div class="map-section">
-        <div id="mapdiv" style="width:100%; height:600px;"></div>
+        <div id="mapdiv" class="map" style="width:100%; height:600px;"></div>
+
+        <form class="p-4" action="mailto:test@gmail.com" method="post">
+            <p class="text-uppercase form-heading-font">send message</p>
+            <div class="custom-form-group">
+                <div>
+                    <label for="name"></label>
+                    <input id="name" class="" name="name" type="text" placeholder="Name" required>
+                </div>
+                <div>
+                    <label class="email" for="email"></label>
+                    <input id="email" class="" name="email" type="email" placeholder="Email">
+                </div>
+                <div>
+                    <label for="subject"></label>
+                    <input id="subject" class="" name="name" type="text" placeholder="subject" required>
+                </div>
+                <div>
+                    <label for="exampleFormControlTextarea1"></label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+            </div>
+            <div class="d-flex justify-content-end">
+                <input class="" type="submit" value="SUBMIT">
+            </div>
+        </form>
 
     </div>
 </section>
